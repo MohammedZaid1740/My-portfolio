@@ -1,0 +1,100 @@
+
+/* Basic styling for the whole page */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {
+    margin-left: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+header h1 {
+    color: #245b91;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #e8f0f8;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #245b91;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/* All sections */
+section {
+    padding: 20px;
+    margin: 15px;
+    border-bottom: 1px solid #cccccc;
+}
+
+/* Section headings */
+h2 {
+    color: #245b91;
+}
+
+/* Project headings */
+h3 {
+    color: #333333;
+}
+
+/* Lists */
+li {
+    margin: 8px;
+}
+
+/* Links */
+a {
+    color: #245b91;
+}
+
+/* Footer */
+footer {
+    background-color: #e8f0f8;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* For smaller screens */
+@media screen and (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+
+}
